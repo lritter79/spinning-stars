@@ -18,14 +18,8 @@
     -webkit-transform: rotate(0deg);
   }
   to {
-    -webkit-transform: rotate(360deg);
+    -webkit-transform: rotate(359deg);
   }
-    
-    -webkit-animation: rotate 7s linear infinite 0s;
-    -moz-animation: rotateup 7s linear infinite 0s;
-    -o-animation: rotate 7s linear infinite 0s;
-    -ms-animation: rotate 7s linear infinite 0s;
-    animation: rotate 7s linear infinite 0s
 
 }
 @-moz-keyframes rotate {
@@ -33,7 +27,7 @@
      -moz-transform: rotate(0deg);
   }
   to {
-     -moz-transform: rotate(360deg);
+     -moz-transform: rotate(359deg);
   }
 
 }
@@ -42,7 +36,7 @@
     -o-transform: rotate(0deg);
   }
   to {
-    -o-transform: rotate(360deg);
+    -o-transform: rotate(359deg);
   }
 
 }
